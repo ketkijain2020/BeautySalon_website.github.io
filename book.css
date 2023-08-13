@@ -1,0 +1,146 @@
+/* CSS code */
+body{
+    background-image: url(./images/img2.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgb(10, 9, 9);
+         
+}
+
+.container h1{
+    background-image:  linear-gradient(rgb(159, 155, 155),rgb(198, 184, 184),rgb(12, 12, 12) , rgb(79, 55, 31),rgb(85, 55, 26));-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+#form{
+    background-color: #0c0c0c;
+    height:600px;
+    width:700px;
+    margin:auto;
+    padding:20px;
+    opacity: 0.7;
+    box-shadow: 0 0 3px 3px #D7B798;
+    border-radius: 10px;
+}
+
+#form h3{
+    border-bottom: 2px solid #865b39;
+    width:210px;
+    padding: 5px;
+}
+::placeholder{
+    color:#fff
+}
+
+#input #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff;
+}
+#input #input-group1{
+    width:615px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+#input1 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+ #input2 #input-group{
+    margin: 7px;
+} 
+#input3 #input-group{
+    width:195px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+
+#input4 #input-group{
+    width:300px;
+    margin:5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color:#fff
+}
+.but button{
+ background-color: #fbf1e3;
+ font-weight: 500;
+ border-radius: 5px;
+ margin: 5px;
+ height: 35px;
+ 
+}
+button:hover{
+    color: #202020;
+}
+
+@media(min-width:300px) and (max-width:760px){
+    
+    #form h3{
+        border-bottom: 2px solid #865b39;
+        width:210px;
+        padding: 5px;
+        
+    }
+    .container h1{
+        background-image:  linear-gradient(rgb(159, 155, 155),rgb(198, 184, 184),rgb(12, 12, 12) , rgb(79, 55, 31),rgb(85, 55, 26));-webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: right;
+    }
+    
+    #form{
+        background-color: #0c0c0c;
+        height:100vh;
+        width:auto !important;
+        margin:auto;
+        padding:20px;
+        opacity: 0.7;
+        box-shadow: 0 0 3px 3px #D7B798;
+        border-radius: 10px;
+        align-items: center;
+    }
+    
+    
+   
+    #input {
+        display: flex;
+        flex-direction: column;
+    }
+    #input1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #input3 {
+        display: flex;
+        flex-direction: column;
+    }
+    #input4 {
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
