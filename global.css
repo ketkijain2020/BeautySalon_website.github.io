@@ -803,8 +803,8 @@ footer{
     }
     .contact_mobile .contact_phone{
     display: contents;
-    margin: 1rem;
-    margin-left: 3rem;
+    margin: 2rem;
+   
     border: 1px solid #865B39;
     width: 350px;
     height:500px;
